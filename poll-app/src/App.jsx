@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import PollForm from "./components/PollForm";
 import PollList from "./components/PollList";
+import "./index.css";
 
 const App = () => {
   const [options, setOptions] = useState([]);
@@ -46,9 +47,9 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-4">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-100 p-4">
       <div className="max-w-xl mx-auto bg-white shadow-xl rounded-2xl p-6">
-        <h1 className="text-3xl font-bold text-center text-blue-600 mb-6">
+        <h1 className="text-10xl font-bold text-center text-blue-600 mb-6">
           Poll App
         </h1>
 
