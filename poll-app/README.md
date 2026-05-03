@@ -1,18 +1,52 @@
-# React + Vite
+author: Najib Mahmud
+# poll-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+This project is a simple voting poll application built using React.
+It allows users to vote for different options and see real-time results displayed on the screen.
+The app also saves votes in local storage so the data is not lost when the page is refreshed.
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-Currently, two official plugins are available:
+## Installation
+#### Clone the repository
+```bash
+git clone git@github.com:najibmahmud-netizen/voting-poll-app.git
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### Navigate into the project folder
+cd poll-app
 
-## React Compiler
+### Install dependencies
+npm install
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Start development server
+npm run dev
 
-Note: This will impact Vite dev & build performances.
+ ## Usage
+To run the project, use the following command:
+```bash
+npm run dev
+```
+## Features
+- Add new poll options
+- Vote for any option
+- Live vote count updates
+- Interactive and responsive UI
+- Built with React functional components and hooks
 
-## Expanding the ESLint configuration
+## Contributing
+Contributions are welcome!
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+If you want to improve this project:
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes.
+4. Push your branch: `git push origin feature-name`.
+5. Create a pull request.
+
+## License
+This project is not licensed
