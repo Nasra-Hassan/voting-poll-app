@@ -34,7 +34,6 @@ npm run dev
 ## Features
 - Add new poll options
 - Vote for any option
-- Remove poll options
 - Live vote count updates
 - Interactive and responsive UI
 - Built with React functional components and hooks
