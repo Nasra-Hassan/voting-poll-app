@@ -1,18 +1,52 @@
-# React + Vite
+author: Najib Mahmud
+# Voting Poll App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
+The Voting Poll App is a simple web application built with React that allows users to create poll options, vote for their preferred option, and manage poll items dynamically. Users can add new options, vote in real time, and remove unwanted options.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Installation
+#### Clone the repository
+```bash
+git clone git@github.com:najibmahmud-netizen/voting-poll-app.git
+```
 
-## React Compiler
+### Navigate into the project folder
+cd voting-poll-app
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Install dependencies
+npm install
 
-Note: This will impact Vite dev & build performances.
+### Start development server
+npm run dev
 
-## Expanding the ESLint configuration
+ ## Usage
+To run the project, use the following command:
+```bash
+npm run dev
+```
+## Features
+- Add new poll options
+- Vote for any option
+- Remove poll options
+- Live vote count updates
+- Interactive and responsive UI
+- Built with React functional components and hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Contributing
+Contributions are welcome!
+
+If you want to improve this project:
+1. Fork the repository.
+2. Create a new branch: `git checkout -b feature-name`.
+3. Make your changes.
+4. Push your branch: `git push origin feature-name`.
+5. Create a pull request.
+
+## License
+This project is not licensed
