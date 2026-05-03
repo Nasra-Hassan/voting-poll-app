@@ -1,9 +1,10 @@
 author: Najib Mahmud
-# Voting Poll App
+# poll-app
 
 ## Project Description
-The Voting Poll App is a simple web application built with React that allows users to create poll options, vote for their preferred option, and manage poll items dynamically. Users can add new options, vote in real time, and remove unwanted options.
-
+This project is a simple voting poll application built using React.
+It allows users to vote for different options and see real-time results displayed on the screen.
+The app also saves votes in local storage so the data is not lost when the page is refreshed.
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -17,7 +18,7 @@ git clone git@github.com:najibmahmud-netizen/voting-poll-app.git
 ```
 
 ### Navigate into the project folder
-cd voting-poll-app
+cd poll-app
 
 ### Install dependencies
 npm install
