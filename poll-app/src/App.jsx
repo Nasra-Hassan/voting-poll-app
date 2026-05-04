@@ -4,8 +4,26 @@ import PollList from "./components/PollList";
 import "./index.css";
 
 const App = () => {
-  const [options, setOptions] = useState([]);
-  const [hasVoted, setHasVoted] = useState(false);
+  const [options, setOptions] = useState([
+{
+  id: 1,
+    text: "React",
+    votes: 0,
+  },
+  {
+    id: 2,
+    text: "Vue",
+    votes: 0,
+  },
+  {
+    id: 3,
+    text: "Angular",
+    votes: 0,
+}
+
+  ]);
+
+   const [hasVoted, setHasVoted] = useState(false);
 
   useEffect(() => {
     const savedOptions = JSON.parse(localStorage.getItem("options")) || [];
